@@ -1,0 +1,39 @@
+#app {
+  background-color: orange;
+  width: 300px;
+  height: 600px;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 5%;
+  border: 4px solid white;
+}
+body {
+  background-color: skyblue;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  margin-top: 5px;
+}
+
+input {
+  font-size: 30px;
+  height: 80px;
+  width: 280px;
+  margin: 6px;
+  border: 3px solid gray;
+}
+.buttons {
+  margin: 17px;
+  margin-top: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+button {
+  font-size: 30px;
+  border: 2px solid black;
+  width: 90px;
+  height: 70px;
+}
